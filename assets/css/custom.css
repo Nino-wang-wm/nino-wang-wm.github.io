@@ -1,0 +1,27 @@
+/* Remove top padding from sections */
+.hbb-section {
+    padding-top: 0 !important;
+}
+
+/* Hide footer completely */
+footer {
+    display: none !important;
+}
+
+/* Set max width for content */
+.max-w-prose {
+    max-width: 1024px;
+}
+
+/* Force left alignment for all content */
+.prose,
+.markdown-inner,
+.hbb-section {
+    text-align: left !important;
+}
+
+.prose *,
+.markdown-inner *,
+.hbb-section * {
+    text-align: left !important;
+}
