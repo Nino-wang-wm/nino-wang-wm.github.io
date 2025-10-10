@@ -4,12 +4,12 @@ date: 2024-10-10
 type: landing
 
 design:
-  css_style: 'max-width: 1200px; margin: 0 auto; padding: 0 2rem; text-align:left'
+  css_style: 'max-width: 1200px; margin: 10px auto; padding: 12rem;'
 
 sections:
   - block: markdown
     content:
-      title: 'Research Interest'
+      title: '<div style="margin-top:50px">Research Interest</div>'
       text: |
         **Optimization Algorithms** (Heuristic Algorithms) • **Queuing Theory** with Markov Chain Applications • **Convex Optimization** • **Supply Chain Optimization**
     design:

@@ -12,16 +12,3 @@ footer {
 .max-w-prose {
     max-width: 1024px;
 }
-
-/* Force left alignment for all content */
-.prose,
-.markdown-inner,
-.hbb-section {
-    text-align: left !important;
-}
-
-.prose *,
-.markdown-inner *,
-.hbb-section * {
-    text-align: left !important;
-}
