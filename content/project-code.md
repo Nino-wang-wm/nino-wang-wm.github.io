@@ -68,6 +68,44 @@ sections:
           </div>
         </div>
         
+        <!-- Project 3: Linear Algebra in Optimization -->
+        <div style="background: #1a202c; border: 1px solid #4a5568; border-radius: 12px; padding: 2.5rem; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); transition: all 0.3s ease; border-left: 4px solid #48bb78; display: flex; align-items: center; gap: 3rem;">
+          <div style="flex: 1;">
+            <h3 style="font-size: 1.75rem; font-weight: 700; margin: 0 0 1rem 0; color: #ffffff; letter-spacing: -0.02em;">
+              Linear Algebra in Optimization
+            </h3>
+            <p style="line-height: 1.85; margin: 0; color: #e2e8f0; font-size: 1rem;">
+              Essential linear algebra concepts that form the mathematical foundation for optimization theory 
+              and algorithms. Covers matrix operations, eigenvalue decomposition, SVD, and their applications 
+              in solving linear and nonlinear optimization problems.
+            </p>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 0.75rem; flex-shrink: 0;">
+            <a href="linear-algebra-optimization/" style="display: inline-block; padding: 0.75rem 1.75rem; background: transparent; color: #e2e8f0; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: all 0.2s ease; border: 1px solid #718096; white-space: nowrap; text-align: center;">
+              View Materials
+            </a>
+          </div>
+        </div>
+        
+        <!-- Project 4: Larson Hypercube Replication -->
+        <div style="background: #1a202c; border: 1px solid #4a5568; border-radius: 12px; padding: 2.5rem; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); transition: all 0.3s ease; border-left: 4px solid #667eea; display: flex; align-items: center; gap: 3rem;">
+          <div style="flex: 1;">
+            <h3 style="font-size: 1.75rem; font-weight: 700; margin: 0 0 1rem 0; color: #ffffff; letter-spacing: -0.02em;">
+              Larson Hypercube Queuing Model Replication
+            </h3>
+            <p style="line-height: 1.85; margin: 0; color: #e2e8f0; font-size: 1rem;">
+              Implementation of Larson's 1974 hypercube queuing model for facility location and redistricting 
+              in urban emergency services. Features dual model implementation, performance analytics, and 
+              comprehensive visualization tools.
+            </p>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 0.75rem; flex-shrink: 0;">
+            <a href="larson-hypercube-replication/" style="display: inline-block; padding: 0.75rem 1.75rem; background: transparent; color: #e2e8f0; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: all 0.2s ease; border: 1px solid #718096; white-space: nowrap; text-align: center;">
+              View Project
+            </a>
+          </div>
+        </div>
+        
         </div>
         
         <style>
@@ -89,12 +127,16 @@ sections:
           }
           a[href*="decomposition-constraint"],
           a[href*="decomposition-variables"],
-          a[href*="advanced-nonlinear-optimization"] {
+          a[href*="advanced-nonlinear-optimization"],
+          a[href*="linear-algebra-optimization"],
+          a[href*="larson-hypercube-replication"] {
             cursor: pointer;
           }
           a[href*="decomposition-constraint"]:hover,
           a[href*="decomposition-variables"]:hover,
-          a[href*="advanced-nonlinear-optimization"]:hover {
+          a[href*="advanced-nonlinear-optimization"]:hover,
+          a[href*="linear-algebra-optimization"]:hover,
+          a[href*="larson-hypercube-replication"]:hover {
             background: #4a5568 !important;
             border-color: #a0aec0 !important;
             color: #ffffff !important;
