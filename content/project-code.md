@@ -5,63 +5,104 @@ type: landing
 
 design:
   spacing: '6rem'
-  css_style: 'max-width: 1200px; margin: 0 auto; padding: 2rem 1rem;'
+  css_style: 'max-width: 1400px; margin: 0 auto; padding: 3rem 2rem;'
 
 sections:
   - block: markdown
     content:
-      title: ''
-      subtitle: ''
+      # title: 'Research Projects and Code Repository'
+      subtitle: 'Advanced Optimization Methods and Machine Learning Applications'
       text: |-
-        <div style="max-width: 1200px; margin: 0 auto;">
+        <div style="max-width: 1400px; margin: 0 auto; padding-top: 1rem;">
         
-        ## 🔬 Decomposition Techniques in Optimization
-        
-        <p style="font-size: 1.1rem; line-height: 1.8; color: #4a5568; margin-bottom: 3rem;">
-          Advanced methods for breaking down complex optimization problems into manageable subproblems. 
-          Explore cutting-edge algorithms for handling complicated constraints and variables through 
-          decomposition strategies including Column Generation and Benders Decomposition.
+        <p style="font-size: 1.05rem; line-height: 1.9; color: #e2e8f0; margin-bottom: 4rem; text-align: justify;">
+          This project contains implementations and analyses of advanced optimization algorithms, 
+          including decomposition techniques for large-scale linear programs and nonlinear optimization 
+          methods applied to machine learning problems. Each project includes theoretical foundations, 
+          computational implementations, and empirical evaluations.
         </p>
         
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); gap: 2rem; margin-top: 3rem;">
+        <div class="project-grid" style="display: grid; grid-template-columns: 1fr; gap: 2.5rem; margin-top: 3rem;">
         
-        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; padding: 2.5rem; color: white; box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-          <div style="font-size: 2rem; margin-bottom: 1rem;">🔗</div>
-          <h3 style="font-size: 1.5rem; font-weight: 700; margin: 0 0 1rem 0; color: white;">
-            <a href="decomposition-constraint/" style="color: white; text-decoration: none;">Decomposition-complicated Constraint</a>
-          </h3>
-          <p style="line-height: 1.8; margin: 0; opacity: 0.95;">
-            Column generation methods for optimization problems with complex linking constraints. 
-            Includes implementations using Gurobi and detailed documentation.
-          </p>
-          <div style="margin-top: 1.5rem;">
-            <a href="decomposition-constraint/" style="display: inline-block; background: rgba(255, 255, 255, 0.2); padding: 0.6rem 1.5rem; border-radius: 8px; text-decoration: none; color: white; font-weight: 600; backdrop-filter: blur(10px); transition: background 0.3s ease;">
-              View Details →
+        <!-- Project 1: Decomposition Techniques -->
+        <div style="background: #1a202c; border: 1px solid #4a5568; border-radius: 12px; padding: 2.5rem; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); transition: all 0.3s ease; border-left: 4px solid #4a5568; display: flex; align-items: center; gap: 3rem;">
+          <div style="flex: 1;">
+            <h3 style="font-size: 1.75rem; font-weight: 700; margin: 0 0 1rem 0; color: #ffffff; letter-spacing: -0.02em;">
+              Decomposition Techniques in Optimization
+            </h3>
+            <p style="line-height: 1.85; margin: 0; color: #e2e8f0; font-size: 1rem;">
+              Column generation and Benders decomposition methods for addressing large-scale optimization 
+              problems with complicating constraints and variables. Implementations leverage commercial 
+              solvers (Gurobi) with algorithmic enhancements for improved convergence properties.
+            </p>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 0.75rem; flex-shrink: 0;">
+            <a href="decomposition-constraint/" style="display: inline-block; padding: 0.75rem 1.75rem; background: transparent; color: #e2e8f0; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: all 0.2s ease; border: 1px solid #718096; white-space: nowrap; text-align: center;">
+              Constraint Decomposition
+            </a>
+            <a href="decomposition-variables/" style="display: inline-block; padding: 0.75rem 1.75rem; background: transparent; color: #e2e8f0; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: all 0.2s ease; border: 1px solid #718096; white-space: nowrap; text-align: center;">
+              Variable Decomposition
             </a>
           </div>
         </div>
         
-        <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 16px; padding: 2.5rem; color: white; box-shadow: 0 10px 40px rgba(245, 87, 108, 0.3); transition: transform 0.3s ease, box-shadow 0.3s ease;">
-          <div style="font-size: 2rem; margin-bottom: 1rem;">⚡</div>
-          <h3 style="font-size: 1.5rem; font-weight: 700; margin: 0 0 1rem 0; color: white;">
-            <a href="decomposition-variables/" style="color: white; text-decoration: none;">Decomposition-complicated Variables</a>
-          </h3>
-          <p style="line-height: 1.8; margin: 0; opacity: 0.95;">
-            Benders decomposition algorithms for problems with complex variable structures. 
-            Features iterative cutting plane methods and convergence analysis.
-          </p>
-          <div style="margin-top: 1.5rem;">
-            <a href="decomposition-variables/" style="display: inline-block; background: rgba(255, 255, 255, 0.2); padding: 0.6rem 1.5rem; border-radius: 8px; text-decoration: none; color: white; font-weight: 600; backdrop-filter: blur(10px); transition: background 0.3s ease;">
-              View Details →
+        <!-- Project 2: Advanced Non-linear Optimization -->
+        <div style="background: #1a202c; border: 1px solid #4a5568; border-radius: 12px; padding: 2.5rem; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); transition: all 0.3s ease; border-left: 4px solid #2d3748; display: flex; align-items: center; gap: 3rem;">
+          <div style="flex: 1;">
+            <h3 style="font-size: 1.75rem; font-weight: 700; margin: 0 0 1rem 0; color: #ffffff; letter-spacing: -0.02em;">
+              Advanced Non-linear Optimization in Machine Learning
+            </h3>
+            <p style="line-height: 1.85; margin: 0; color: #e2e8f0; font-size: 1rem;">
+              Computational methods for solving nonlinear optimization problems arising in machine learning 
+              applications. This project includes gradient-based algorithms, convergence analysis, and 
+              numerical experiments with real-world datasets.
+            </p>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 0.75rem; flex-shrink: 0;">
+            <a href="advanced-nonlinear-optimization/homework1/" style="display: inline-block; padding: 0.75rem 1.75rem; background: transparent; color: #e2e8f0; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: all 0.2s ease; border: 1px solid #718096; white-space: nowrap; text-align: center;">
+              Example 1
+            </a>
+            <a href="advanced-nonlinear-optimization/homework2/" style="display: inline-block; padding: 0.75rem 1.75rem; background: transparent; color: #e2e8f0; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: all 0.2s ease; border: 1px solid #718096; white-space: nowrap; text-align: center;">
+              Example 2
             </a>
           </div>
         </div>
         
         </div>
+        
+        <style>
+          @media (max-width: 768px) {
+            .project-grid {
+              grid-template-columns: 1fr !important;
+            }
+            .project-grid > div {
+              flex-direction: column !important;
+              align-items: flex-start !important;
+            }
+            .project-grid > div > div:last-child {
+              margin-top: 1.5rem;
+              width: 100%;
+            }
+            .project-grid > div > div:last-child a {
+              width: 100%;
+            }
+          }
+          a[href*="decomposition-constraint"],
+          a[href*="decomposition-variables"],
+          a[href*="advanced-nonlinear-optimization"] {
+            cursor: pointer;
+          }
+          a[href*="decomposition-constraint"]:hover,
+          a[href*="decomposition-variables"]:hover,
+          a[href*="advanced-nonlinear-optimization"]:hover {
+            background: #4a5568 !important;
+            border-color: #a0aec0 !important;
+            color: #ffffff !important;
+          }
+        </style>
         
         </div>
     design:
       columns: '1'
-      css_class: ''
 ---
 
