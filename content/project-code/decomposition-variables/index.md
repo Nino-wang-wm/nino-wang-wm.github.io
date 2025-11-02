@@ -80,7 +80,7 @@ sections:
           </ul>
         </div>
         
-        <a href="/data/project/benders/benders.py" download style="display: inline-flex; align-items: center; background: #48bb78; color: white; padding: 0.875rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: background 0.2s ease; box-shadow: 0 2px 8px rgba(72, 187, 120, 0.25);">
+        <a href="/data/project/benders/benders.py" download style="display: inline-flex; align-items: center; gap: 0.5rem; color: #818cf8; text-decoration: none; font-weight: 500; font-size: 0.95rem; padding: 0.5rem 1rem; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 6px; transition: all 0.2s;">
           Download Source Code
         </a>
         

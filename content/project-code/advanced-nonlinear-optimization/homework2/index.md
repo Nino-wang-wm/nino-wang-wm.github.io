@@ -78,8 +78,8 @@ sections:
           convergence analysis, performance comparisons, and detailed visualizations.
         </p>
         
-        <a href="/data/project/homework/2/Optimization_Code.ipynb" download style="display: inline-flex; align-items: center; background: #667eea; color: white; padding: 0.875rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: background 0.2s ease; box-shadow: 0 2px 8px rgba(102, 126, 234, 0.25);">
-          Download Implement
+        <a href="/data/project/homework/2/Optimization_Code.ipynb" download style="display: inline-flex; align-items: center; gap: 0.5rem; color: #818cf8; text-decoration: none; font-weight: 500; font-size: 0.95rem; padding: 0.5rem 1rem; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 6px; transition: all 0.2s;">
+          Download Source Code
         </a>
         
         </div>

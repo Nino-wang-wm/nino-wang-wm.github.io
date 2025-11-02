@@ -52,8 +52,8 @@ sections:
         </p>
         
         <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-          <a href="/data/project/linear_algebra/LA.pdf" download style="display: inline-flex; align-items: center; background: transparent; color: #90cdf4; padding: 0.875rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: all 0.2s ease; border: 1px solid #4a5568;">
-            Download PDF
+          <a href="/data/project/linear_algebra/LA.pdf" download style="display: inline-flex; align-items: center; gap: 0.5rem; color: #818cf8; text-decoration: none; font-weight: 500; font-size: 0.95rem; padding: 0.5rem 1rem; border: 1px solid rgba(129, 140, 248, 0.3); border-radius: 6px; transition: all 0.2s;">
+            Download Course
           </a>
         </div>
         
