@@ -84,7 +84,7 @@ sections:
         
         <div style="background: #ffffff; border-radius: 12px; padding: 2.5rem; margin-bottom: 3rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; align-items: stretch; gap: 3rem;">
           <div style="flex: 0 0 300px; display: flex; align-items: stretch;">
-            <img src="/media/math211.svg" alt="Linear Algebra" style="width: 100%; height: 70%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <img src="/media/education/wm.jpg" alt="Linear Algebra" style="width: 100%; height: 70%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           </div>
           <div style="flex: 1;">
             <h3 style="font-size: 1.75rem; font-weight: 700; margin: 0 0 1rem 0; color: #1a202c;">
@@ -107,7 +107,7 @@ sections:
         
         <div style="background: #ffffff; border-radius: 12px; padding: 2.5rem; margin-bottom: 3rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; align-items: stretch; gap: 3rem; flex-direction: row-reverse;">
           <div style="flex: 0 0 300px; display: flex; align-items: stretch;">
-            <img src="/media/math352.svg" alt="Statistical Data Analysis" style="width: 100%; height: 70%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <img src="/media/education/wm.jpg" alt="Statistical Data Analysis" style="width: 100%; height: 70%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           </div>
           <div style="flex: 1;">
             <h3 style="font-size: 1.75rem; font-weight: 700; margin: 0 0 1rem 0; color: #1a202c;">
