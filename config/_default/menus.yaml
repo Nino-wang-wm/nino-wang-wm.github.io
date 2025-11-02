@@ -16,15 +16,15 @@ main:
   - name: Publications
     url: publications/
     weight: 40
-  - name: Group People
-    url: group-people/
-    weight: 50
-  - name: Big World
-    url: big-world/
-    weight: 60
+  # - name: Group People
+  #   url: group-people/
+  #   weight: 50
+  # - name: Big World
+  #   url: big-world/
+  #   weight: 60
   - name: Teaching
     url: teaching/
     weight: 70
-  - name: Project and Code
+  - name: Project
     url: project-code/
     weight: 80
