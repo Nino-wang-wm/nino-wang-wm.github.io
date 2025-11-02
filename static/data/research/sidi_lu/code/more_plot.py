@@ -1,0 +1,50 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+original_results = pd.read_csv('yqoriginal_algorithm_results.csv')
+enhanced_results = pd.read_csv('yqenhanced_algorithm_results.csv')
+
+original_avg_result = pd.read_csv('100_rounds_original_result.csv')
+enhanced_avg_result = pd.read_csv('100_rounds_enhanced_result.csv')
+
+plt.figure()
+plt.plot(original_results['Iteration'], original_results['Best_Distance'], label='Original')
+plt.plot(enhanced_results['Iteration'], enhanced_results['Best_Distance'], label='Enhanced Dynamic Pheromone')
+plt.xlabel('Iteration')
+plt.ylabel('Best Distance')
+plt.title('Comparison of Original and Enhanced Dynamic Pheromone Algorithms')
+plt.legend()
+plt.grid(True)
+plt.show()
+
+plt.figure()
+plt.plot(original_avg_result['avg'], label='Original')
+plt.plot(enhanced_avg_result['avg'], label='Enhanced Dynamic Pheromone')
+plt.xlabel('Iteration')
+plt.ylabel('Average Distance')
+plt.title('Comparison of Average Distance')
+plt.legend()
+plt.grid(True)
+plt.show()
+
+plt.figure()
+plt.plot(original_avg_result['best'], label='Original')
+plt.plot(enhanced_avg_result['best'], label='Enhanced Dynamic Pheromone')
+plt.xlabel('Iteration')
+plt.ylabel('Best Distance')
+plt.title('Comparison of Best Distance')
+plt.legend()
+plt.grid(True)
+plt.show()
+
+plt.figure()
+plt.boxplot([original_avg_result['avg'], enhanced_avg_result['avg']], labels=['Original', 'Enhanced Dynamic Pheromone'])
+plt.ylabel('Average Distance')
+plt.title('Box Plot of Average Distance')
+plt.show()
+
+plt.figure()
+plt.boxplot([original_avg_result['best'], enhanced_avg_result['best']], labels=['Original', 'Enhanced Dynamic Pheromone'])
+plt.ylabel('Best Distance')
+plt.title('Box Plot of Best Distance')
+plt.show()
