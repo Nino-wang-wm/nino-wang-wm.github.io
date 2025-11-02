@@ -42,7 +42,7 @@ sections:
             Comprehensive documentation detailing the theoretical foundations of constraint-based decomposition 
             methods, including problem formulation, duality theory, and convergence analysis.
           </p>
-          <a href="/data/cvlp1.pdf" target="_blank" style="display: inline-flex; align-items: center; color: #90cdf4; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: color 0.2s ease;">
+          <a href="/data/project/cvlplp1.pdf" target="_blank" style="display: inline-flex; align-items: center; color: #90cdf4; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: color 0.2s ease;">
             Access PDF Document <span style="margin-left: 0.5rem; font-size: 1rem;">→</span>
           </a>
         </div>
@@ -55,7 +55,7 @@ sections:
             Extended documentation covering advanced decomposition techniques, implementation strategies, 
             and computational case studies with numerical results.
           </p>
-          <a href="/data/cvlp2.pdf" target="_blank" style="display: inline-flex; align-items: center; color: #90cdf4; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: color 0.2s ease;">
+          <a href="/data/project/cvlplp2.pdf" target="_blank" style="display: inline-flex; align-items: center; color: #90cdf4; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: color 0.2s ease;">
             Access PDF Document <span style="margin-left: 0.5rem; font-size: 1rem;">→</span>
           </a>
         </div>
@@ -92,7 +92,7 @@ sections:
           </ul>
         </div>
         
-        <a href="/data/cvlp3.py" download style="display: inline-flex; align-items: center; background: #667eea; color: white; padding: 0.875rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: background 0.2s ease; box-shadow: 0 2px 8px rgba(102, 126, 234, 0.25);">
+        <a href="/data/project/cvlplp3.py" download style="display: inline-flex; align-items: center; background: #667eea; color: white; padding: 0.875rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: background 0.2s ease; box-shadow: 0 2px 8px rgba(102, 126, 234, 0.25);">
           Download Source Code
         </a>
         

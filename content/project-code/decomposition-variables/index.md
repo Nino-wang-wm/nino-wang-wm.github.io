@@ -43,7 +43,7 @@ sections:
             dual formulations, cut generation procedures, convergence proofs, and numerical examples with 
             computational results.
           </p>
-          <a href="/data/calculation.pdf" target="_blank" style="display: inline-flex; align-items: center; color: #90cdf4; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: color 0.2s ease;">
+          <a href="/data/project/benders/calculation.pdf" target="_blank" style="display: inline-flex; align-items: center; color: #90cdf4; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: color 0.2s ease;">
             Access PDF Document <span style="margin-left: 0.5rem; font-size: 1rem;">→</span>
           </a>
         </div>
@@ -80,7 +80,7 @@ sections:
           </ul>
         </div>
         
-        <a href="/data/benders.py" download style="display: inline-flex; align-items: center; background: #48bb78; color: white; padding: 0.875rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: background 0.2s ease; box-shadow: 0 2px 8px rgba(72, 187, 120, 0.25);">
+        <a href="/data/project/benders/benders.py" download style="display: inline-flex; align-items: center; background: #48bb78; color: white; padding: 0.875rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: background 0.2s ease; box-shadow: 0 2px 8px rgba(72, 187, 120, 0.25);">
           Download Source Code
         </a>
         

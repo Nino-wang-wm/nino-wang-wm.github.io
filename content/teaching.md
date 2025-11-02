@@ -18,7 +18,7 @@ sections:
         
         **College of William & Mary**, Williamsburg, Virginia, USA
         
-        <p style="font-size: 1.05rem; line-height: 1.8; color: #4a5568; margin-top: 1.5rem;">
+        <p style="font-size: 1.05rem; line-height: 1.8; color:rgb(230, 230, 230); margin-top: 1.5rem;">
           As a Teaching Assistant at William & Mary, I have had the privilege of supporting undergraduate students 
           in their mathematical journey. My experience spans foundational calculus courses, linear algebra, and 
           statistical data analysis, where I help students develop problem-solving skills and deepen their understanding 

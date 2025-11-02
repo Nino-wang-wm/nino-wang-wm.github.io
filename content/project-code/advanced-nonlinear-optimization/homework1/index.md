@@ -40,7 +40,7 @@ sections:
           <p style="color: #e2e8f0; margin: 0 0 1.25rem 0; line-height: 1.7; font-size: 0.95rem;">
             Complete assignment document with problem statements, theoretical questions, and implementation requirements.
           </p>
-          <a href="/data/homework/1/Optimization HW.pdf" target="_blank" style="display: inline-flex; align-items: center; color: #90cdf4; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: color 0.2s ease;">
+          <a href="/data/project/homework/1/Optimization_HW.pdf" target="_blank" style="display: inline-flex; align-items: center; color: #90cdf4; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: color 0.2s ease;">
             Access PDF Document <span style="margin-left: 0.5rem; font-size: 1rem;">→</span>
           </a>
         </div>
@@ -52,7 +52,7 @@ sections:
           <p style="color: #e2e8f0; margin: 0 0 1.25rem 0; line-height: 1.7; font-size: 0.95rem;">
             Detailed solution, including mathematical derivations, algorithm descriptions, and computational results.
           </p>
-          <a href="/data/homework/1/Opti HW Q1.pdf" target="_blank" style="display: inline-flex; align-items: center; color: #90cdf4; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: color 0.2s ease;">
+          <a href="/data/project/homework/1/Opti HW_Q1.pdf" target="_blank" style="display: inline-flex; align-items: center; color: #90cdf4; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: color 0.2s ease;">
             Access PDF Document <span style="margin-left: 0.5rem; font-size: 1rem;">→</span>
           </a>
         </div>
@@ -77,7 +77,7 @@ sections:
           analysis, and visualization of results.
         </p>
         
-        <a href="/data/homework/1/Opti HW Q1.ipynb" download style="display: inline-flex; align-items: center; background: #667eea; color: white; padding: 0.875rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: background 0.2s ease; box-shadow: 0 2px 8px rgba(102, 126, 234, 0.25);">
+        <a href="/data/project/homework/1/Opti_HW_Q1.ipynb" download style="display: inline-flex; align-items: center; background: #667eea; color: white; padding: 0.875rem 2rem; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: background 0.2s ease; box-shadow: 0 2px 8px rgba(102, 126, 234, 0.25);">
           Download Implement
         </a>
         
