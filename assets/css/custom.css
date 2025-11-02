@@ -13,6 +13,22 @@ footer {
     max-width: 1024px;
 }
 
+/* Education page specific: Remove width restrictions only for education page */
+/* Target sections containing education-page-content class */
+section:has(.education-page-content) .max-w-prose {
+    max-width: none !important;
+}
+
+section:has(.education-page-content) .flex.flex-col.items-center.max-w-prose {
+    max-width: 100% !important;
+    width: 70% !important;
+}
+
+section:has(.education-page-content) .prose.max-w-prose {
+    max-width: 100% !important;
+    width: 80% !important;
+}
+
 /* Unify Download CV button style to match Paper button style */
 .resume-biography a[href*="resume.pdf"],
 .resume-biography a[href*="uploads/resume.pdf"] {
