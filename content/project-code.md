@@ -10,10 +10,11 @@ design:
 sections:
   - block: markdown
     content:
-      # title: 'Research Projects and Code Repository'
       subtitle: 'Advanced Optimization Methods and Machine Learning Applications'
       text: |-
         <div style="max-width: 1400px; margin: 0 auto; padding-top: 1rem;">
+        
+        <h2 style="font-size: 2rem; font-weight: 700; margin: 0 0 1.5rem 0; color: #ffffff; text-align: left;">Project and Code</h2>
         
         <p style="font-size: 1.05rem; line-height: 1.9; color: #e2e8f0; margin-bottom: 4rem; text-align: justify;">
           This project contains implementations and analyses of advanced optimization algorithms, 

@@ -3,6 +3,15 @@
     padding-top: 0 !important;
 }
 
+/* Reduce top spacing for resume-biography block on homepage */
+.resume-biography,
+.resume-biography-3,
+section:has(.resume-biography),
+section:has(.resume-biography-3) {
+    padding-top: 2rem !important;
+    margin-top: 0 !important;
+}
+
 /* Hide footer completely */
 footer {
     display: none !important;

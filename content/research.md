@@ -14,10 +14,9 @@ sections:
       text: |-
         <div style="max-width: 1400px; margin: 0 auto; margin-bottom:-6rem">
         <div style="text-align: center; margin-bottom: 4rem;">
-          <h1 style="font-size: 2.5rem; font-weight: 700; margin: 0 0 1.5rem 0; letter-spacing: -0.02em;">
-            Research
-          </h1>
-          <p style="font-size: 1.2rem; line-height: 1.8; max-width: 800px; margin: 0 auto; opacity: 0.9;">
+           <h2 style="font-size: 2rem; font-weight: 700; margin: 0 0 1.5rem 0; color: #ffffff; text-align: left;">Research
+           </h2>
+          <p style="font-size: 1.2rem; line-height: 1.8; margin: 0; opacity: 0.9; text-align:left">
             My research focuses on developing and applying advanced optimization algorithms to solve complex real-world problems. 
             I work with cutting-edge techniques in heuristic optimization, queuing theory, and mathematical programming to address 
             challenges in autonomous systems, healthcare management, and supply chain optimization.

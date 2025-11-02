@@ -13,8 +13,8 @@ sections:
       title: ''
       text: |-
         <div style="max-width: 1200px; margin: 0 auto;">
-        
-        ## 👨‍🏫 Teaching Assistant
+      
+        <h2 style="font-size: 2rem; font-weight: 700; margin: 0 0 1.5rem 0; color: #ffffff; text-align: left;">Teaching Assistant</h2>
         
         **College of William & Mary**, Williamsburg, Virginia, USA
         
@@ -38,7 +38,7 @@ sections:
       text: |-
         <div style="max-width: 1200px; margin: 0 auto;">
         
-        <div style="background: #ffffff; border-radius: 12px; padding: 2.5rem; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; align-items: stretch; gap: 3rem;">
+        <div style="background: #f8f9fa; border-radius: 12px; padding: 2.5rem; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; align-items: stretch; gap: 3rem;">
           <div style="flex: 0 0 300px; display: flex; align-items: stretch;">
             <img src="/media/math111.jpg" alt="Calculus I" style="width: 100%; height: 70%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           </div>
@@ -59,7 +59,7 @@ sections:
           </div>
         </div>
         
-        <div style="background: #ffffff; border-radius: 12px; padding: 2.5rem; margin-bottom: 3rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; align-items: stretch; gap: 3rem; flex-direction: row-reverse;">
+        <div style="background: #f8f9fa; border-radius: 12px; padding: 2.5rem; margin-bottom: 3rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; align-items: stretch; gap: 3rem; flex-direction: row-reverse;">
           <div style="flex: 0 0 300px; display: flex; align-items: stretch;">
             <img src="/media/math112.jpg" alt="Calculus II" style="width: 100%; height: 70%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           </div>
@@ -82,7 +82,7 @@ sections:
           </div>
         </div>
         
-        <div style="background: #ffffff; border-radius: 12px; padding: 2.5rem; margin-bottom: 3rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; align-items: stretch; gap: 3rem;">
+        <div style="background: #f8f9fa; border-radius: 12px; padding: 2.5rem; margin-bottom: 3rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; align-items: stretch; gap: 3rem;">
           <div style="flex: 0 0 300px; display: flex; align-items: stretch;">
             <img src="/media/education/wm.jpg" alt="Linear Algebra" style="width: 100%; height: 70%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           </div>
@@ -105,7 +105,7 @@ sections:
           </div>
         </div>
         
-        <div style="background: #ffffff; border-radius: 12px; padding: 2.5rem; margin-bottom: 3rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; align-items: stretch; gap: 3rem; flex-direction: row-reverse;">
+        <div style="background: #f8f9fa; border-radius: 12px; padding: 2.5rem; margin-bottom: 3rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display: flex; align-items: stretch; gap: 3rem; flex-direction: row-reverse;">
           <div style="flex: 0 0 300px; display: flex; align-items: stretch;">
             <img src="/media/education/wm.jpg" alt="Statistical Data Analysis" style="width: 100%; height: 70%; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
           </div>
