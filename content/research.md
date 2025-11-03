@@ -31,7 +31,7 @@ sections:
       title: ''
       text: |-
         <div style="max-width: 1400px; margin: 0 auto;">
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 4rem;">
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; margin-bottom: 4rem;">
           <div style="background: #3B82F6; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);">
             <h3 style="font-size: 1.35rem; font-weight: 700; margin: 0 0 1rem 0;">
               Optimization Algorithms
@@ -54,6 +54,14 @@ sections:
             </h3>
             <p style="margin: 0; line-height: 1.6; font-size: 0.95rem; opacity: 0.9;">
               Convex optimization and constraint programming
+            </p>
+          </div>
+          <div style="background: linear-gradient(135deg, #9f7aea 0%, #805ad5 100%); border-radius: 12px; padding: 2rem; box-shadow: 0 4px 20px rgba(159, 122, 234, 0.3);">
+            <h3 style="font-size: 1.35rem; font-weight: 700; margin: 0 0 1rem 0;">
+              Healthcare Operations Research
+            </h3>
+            <p style="margin: 0; line-height: 1.6; font-size: 0.95rem; opacity: 0.9;">
+              Optimization and analytics for healthcare systems
             </p>
           </div>
         </div>
@@ -207,8 +215,13 @@ sections:
         </div>
 
         <style>
+          @media (max-width: 1024px) {
+            div[style*="display: grid; grid-template-columns: repeat(4, 1fr)"] {
+              grid-template-columns: repeat(2, 1fr) !important;
+            }
+          }
           @media (max-width: 768px) {
-            div[style*="grid-template-columns"] {
+            div[style*="display: grid; grid-template-columns: repeat(4, 1fr)"] {
               grid-template-columns: 1fr !important;
             }
             div[style*="display: grid"] {
